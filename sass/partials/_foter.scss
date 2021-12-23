@@ -1,0 +1,55 @@
+.foter-partial-3b2d84 {
+    background:#5e6464;
+    .banner-footer{
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 545px;
+        padding: 4rem 0;
+        .logo-footer{
+            max-width: 813px;
+            width: 100%;
+        }
+    }
+    .content-gris{
+        position: relative;
+        .image-footer-izquierda{
+            position: absolute;
+            max-width: 133px;
+            top: 0;
+            left: 0;
+        }
+        .image-footer-derecha{
+            position: absolute;
+            right: 0;
+            top: 0;
+            max-width: 133px;
+        }
+        @media(max-width:1135px){
+            .image-footer-izquierda, .image-footer-derecha{
+                display: none;
+            }
+        }
+    }
+    .text-footer-content{
+        padding: 3rem 0;
+        .title-footer{
+            color: #f1ead6;
+            font-family: 'Montserrat-Bold', sans-serif;
+            font-weight: 700;
+            font-size: 40px;
+        }
+        .description-footer{
+            color: #f1ead6;
+            font-size: 18px;
+            font-family: 'Montserrat-Regular', sans-serif;
+        }
+        .btn-view-more-footer{
+            text-decoration: none;
+            color:#5e6464;
+            background: white;
+            padding: 10px 60px;
+            font-family: 'Montserrat-Regular', sans-serif;
+        }
+    }
+}

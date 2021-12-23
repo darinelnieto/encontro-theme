@@ -1,0 +1,308 @@
+#home-template-b95c23 {
+    .banner-home{
+        background: #f2ebd7;
+        padding: 4rem 0;
+        .alinea-row{
+            align-items: center;
+            .text-banner-home{
+                h1{
+                    color:#5e6464;
+                    font-family: 'Montserrat-extra-Bold', sans-serif;
+                    font-weight: 700;
+                    margin-bottom: 0;
+                    line-height: .5;
+                }
+                h3{
+                    color:#5e6464;
+                    font-family: 'Montserrat-extra-Bold', sans-serif;
+                    font-weight: 700;
+                    font-size: 34px;
+                }
+                p{
+                    color:#5e6464;
+                    padding-bottom: 1rem;
+                    font-family: 'Montserrat-Regular', sans-serif;
+                    font-size: 17px;
+                }
+                a{
+                    background: #5e6464;
+                    text-decoration: none;
+                    color:#f1ead6;
+                    padding: 15px 20px;
+                    margin-top: 1rem;
+                    font-family: 'Montserrat-Regular', sans-serif;
+                }
+                @media(max-width:768px){
+                    h3{
+                        font-size: 24px;
+                    }
+                }
+            }
+            .img-banner-home{
+                width: 100%;
+            }
+            
+        }
+    }
+    // seccion formulario
+    .form-home{
+        background: #a8a89e;
+        position: relative;
+        min-height: 332px;
+        padding: 5rem 0;
+        h3{
+            font-family: 'Montserrat-Bold', sans-serif;
+            color: #5e6464;
+            font-weight: 700;
+        }
+        .imagen-izquierda-formulario{
+            position: absolute;
+            left: 0;
+            top: 0;
+            max-width: 170px;
+        }
+        .imagen-derecha-formulario{
+            position: absolute;
+            right: 0;
+            max-width: 170px;
+            top: 0;
+        }
+        @media(max-width:1135px){
+            .imagen-izquierda-formulario, .imagen-derecha-formulario{
+                display: none;
+            }
+        }
+        .content-form{
+            input[type="text"], input[type="email"], input[type="tel"]{
+                width: 100%;
+                outline: none;
+                background: #f2ebd7;
+                color: 5e6464;
+                border: none;
+                margin-bottom:10px;
+                padding: 0 20px;
+                height: 35px;
+                font-family: 'Montserrat-ExtraLight', sans-serif;
+            }
+            label{
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: 10px;
+                cursor: pointer;
+                .wpcf7-form-control-wrap.acceptance-719{
+                    display: none;
+                }
+                .acepta-politicas{
+                    min-width: 23px;
+                    max-width:23px;
+                    height: 23px;
+                    border-radius: 50%;
+                    border:6px solid #f2ebd7;
+                    background: #5e6464;
+                    margin-right: 10px;
+                }
+                .text-acetptacion{
+                    color: #5e6464;
+                    font-size: 12px;
+                    font-family: 'Montserrat-Regular', sans-serif;
+                }
+            }
+            .content-submit{
+                position: relative;
+                input[type="submit"]{
+                    background: #f2ebd7;
+                    border: none;
+                    color: #5e6464;
+                    font-family: 'Montserrat-Regular', sans-serif;
+                    width: 100%;
+                    height: 40px;
+                    box-shadow: 0 0 6px 0px;
+                    outline: none;
+                }
+                .wpcf7-spinner{
+                    position: absolute;
+                    bottom: -31px;
+                    left: 36%;
+                }
+            }
+        }
+    }
+    // section one style
+    .section-one-home{
+        background: #5e6464;
+        padding:3rem 0;
+        .title-process{
+            color:#f1ead6;
+            text-transform: uppercase;
+            font-family: 'Montserrat-extra-Bold', sans-serif;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+        .content-grupo-uno{
+            p{
+                color:#f1ead6;
+                font-size: 20px;
+            }
+        }
+        .content-icon-requisitos{
+            text-align: left;
+            p{
+                color:#f1ead6;
+                font-size: 20px;
+            }
+        }
+        .content-icon-solicitud{
+            text-align: right;
+            p{
+                color:#f1ead6;
+                font-size: 20px;
+            }
+        }
+        .btn-descarga-solicitud{
+            text-decoration: none;
+            max-width: 440px;
+            margin: auto;
+            p{
+                font-family: 'Montserrat-Regular', sans-serif;
+                background: #f1ead6;
+                color: #5e6464;
+                text-decoration: none;
+                padding: 6px 0;
+                font-size: 18px;
+            }
+        }
+        .btn-descarga-movil{
+            display: none;
+        }
+        @media(max-width:768px){
+            .content-icon-solicitud{
+                text-align: center;
+            }
+            .content-icon-requisitos{
+                text-align: center;
+            }
+            .btn-descarga-decktop{
+                display: none;
+            }
+            .btn-descarga-movil{
+                display: block;
+            }
+        }
+    }
+    // section benefits
+    .content-title-benefits{
+        h2{
+            text-transform: uppercase;
+            color:#f1ead6;
+            font-size: 40px;
+            font-family: 'Montserrat-Bold', sans-serif;
+            font-weight: 700;
+        }
+    }
+    .content-text-benefits{
+        border-left: 2px solid #f1ead6;
+        ul{
+            color:#f1ead6;
+            font-size: 18px;
+            font-family: 'Montserrat-Regular', sans-serif;
+        }
+    }
+    @media(max-width:768px){
+        .content-text-benefits{
+            border:none;
+        }
+    }
+    // parallax
+    .section-parallax{
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        .content-parallax{
+            min-height: 350px;
+            background:rgba(242, 235, 215, 0.74);
+            .container{
+                padding: 5rem 0;
+                .row{
+                    padding: 0 10px;
+                    .parallax-text{
+                        text-align: center;
+                        h2{
+                            color:#5e6464;
+                            margin-bottom: 2rem;
+                            font-family: 'Montserrat-Bold', sans-serif;
+                            font-weight: 700;
+                        }
+                        p{
+                            color:#5e6464;
+                            font-size: 20px;
+                            font-family: 'Montserrat-Regular', sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // blog - faq
+    .section-blog-faq{
+        background:#f1ead6;
+        .view-blog-link{
+            color:#5e6464;
+            font-family: 'Montserrat-Regular', sans-serif;
+        }
+        .title-fqa{
+            padding: 0px 10px;
+            color:#5e6464;
+            font-family: 'Montserrat-Bold', sans-serif;
+            font-weight: 700;
+        }
+        .content-fqa > .item-fqa{
+            .question{
+                padding: 10px;
+                color:#5e6464;
+                cursor: pointer;
+                font-family: 'Montserrat-Regular', sans-serif;
+            }
+            .question.active, .question:hover{
+                border:1px solid #5e6464;
+            }
+            .answer{
+                display:none;
+                padding: 5px 10px;
+                border:1px solid #5e6464;
+                border-top: none;
+                background: white;
+                font-family: 'Montserrat-Regular', sans-serif;
+            }
+        }
+        .content-btn-fqa-actions{
+            display: flex;
+            margin-top: 2rem;
+            justify-content: center;
+            a{
+                padding: 10px 20px;
+                background: #5e6464;
+                margin:0 15px;
+                color: #f1ead6;
+                text-decoration: none;
+                line-height: 1;
+                font-family: 'Montserrat-Regular', sans-serif;
+                display: flex;
+                align-items: center;
+                span > img{
+                    width: 28px;
+                    margin-right:10px;
+                }
+                &:hover{
+                    color: #f1ead6;
+                }
+            }
+            .btn-show-more-fqa{
+                padding: 16px 20px;
+            }
+        }
+        
+    }
+}

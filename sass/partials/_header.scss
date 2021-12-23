@@ -1,0 +1,29 @@
+
+.header-partial-3cace4 {
+    background: #f2ebd7;
+    height: 212px;
+    padding: 29px 0;
+    box-shadow: 0px 0px 10px 0px #000;
+    position: relative;
+    .alinea-row{
+        align-items: center;
+        .row{
+            align-items: center;
+            .logo-header{
+                width: 123px;
+            }
+            .btn-ayuda-header{
+                border:1px solid #5e6464;
+                color:#5e6464;
+                text-decoration: none;
+                padding: 20px 27px;
+                font-family: 'Montserrat-Bold', sans-serif;
+            }
+            @media(max-width:768px){
+                .btn-ayuda-header{
+                    padding: 16px 20px;
+                }
+            }
+        }
+    }
+}

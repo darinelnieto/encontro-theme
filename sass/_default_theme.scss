@@ -1,0 +1,30 @@
+.alinea-row{
+    align-items: center;
+}
+html, body{
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('./Fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-extra-Bold';
+    src: url('./Fonts/Montserrat-Black.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-ExtraLight';
+    src: url('./Fonts/Montserrat-ExtraLightItalic.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('./Fonts/Montserrat-Light.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('./Fonts/Montserrat-Medium.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('./Fonts/Montserrat-Regular.ttf');
+}

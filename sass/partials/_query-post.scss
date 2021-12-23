@@ -1,0 +1,37 @@
+.query-post-partial-79a506 {
+    .content-post{
+        a{
+            text-decoration: none;
+        }
+        .card{
+            background:#5e6464;
+            border-radius: 0;
+            
+            .title{
+                height: 58px;
+                color:white;
+                font-family: 'Montserrat-Regular', sans-serif;
+                font-size: 20px;
+            }
+            p{
+                color:white;
+                font-family: 'Montserrat-Light', sans-serif;
+                font-size: 16px;
+            }
+            .data-post{
+                text-align: right;
+                margin-bottom: 0;
+                font-family: 'Montserrat-ExtraLight', sans-serif;
+                font-weight: 500;
+                font-style: italic;
+            }
+            .content-image-post{
+                width: 100%;
+                height: 200px;
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
