@@ -58,13 +58,13 @@ $btn_banner = get_field('btn');
             <?php $grupo_uno = get_field('grupo_uno'); ?>
             <div class="row aliea-row">
                 <div class="col-12 col-lg-6 text-center content-grupo-uno">
-                    <a href="<?php echo $grupo_uno['link_pagina_proceso']['url'] ?>">
+                    <a href="<?php echo $grupo_uno['link_pagina_proceso'] ?>">
                         <img src="<?php echo $grupo_uno['icono_list'] ?>" alt="" class="icon-grupos">
                         <p><?php echo $grupo_uno['texto_icono_list'] ?></p>
                     </a>
                 </div>
                 <div class="col-12 col-lg-6 text-center content-grupo-uno">
-                    <a href="<?php echo $grupo_uno['link_pagina_proceso']['url'] ?>">
+                    <a href="<?php echo $grupo_uno['link_pagina_proceso'] ?>">
                         <img src="<?php echo $grupo_uno['icono_start'] ?>" alt="" class="icon-grupos">
                         <p><?php echo $grupo_uno['texto_icono_start'] ?></p>
                     </a>
