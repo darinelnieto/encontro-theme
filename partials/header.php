@@ -24,7 +24,7 @@ $ayuda = get_field('te_ayudamos', 'option');
                 </div>
             </div>
             <div class="col-12 col-lg-4">
-                <!-- <nav class="navbar">
+                <nav class="navbar">
                     <div class="main-menu">
                     <div class="hamburguer" onclick="ditto.menu(this)">
                         <span></span>
@@ -41,7 +41,7 @@ $ayuda = get_field('te_ayudamos', 'option');
                         ]);
                     ?>   
                     </div>
-                </nav> -->
+                </nav>
             </div>
         </div>
     </div>
