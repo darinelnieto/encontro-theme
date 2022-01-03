@@ -4,6 +4,9 @@
 html, body{
     overflow-x: hidden;
 }
+body{
+    background: #5e6464 !important;
+}
 @font-face {
     font-family: 'Montserrat-Bold';
     src: url('./Fonts/Montserrat-Bold.ttf');

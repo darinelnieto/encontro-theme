@@ -4,6 +4,9 @@
 html, body {
   overflow-x: hidden; }
 
+body {
+  background: #5e6464 !important; }
+
 @font-face {
   font-family: 'Montserrat-Bold';
   src: url(079ca05d3ded9bc107ab8a8da013be22.ttf); }
@@ -58,47 +61,14 @@ html, body {
 
 .foter-partial-3b2d84 {
   background: #5e6464; }
-  .foter-partial-3b2d84 .banner-footer {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-height: 545px;
-    padding: 4rem 0; }
-    .foter-partial-3b2d84 .banner-footer .logo-footer {
-      max-width: 813px;
-      width: 100%; }
-  .foter-partial-3b2d84 .content-gris {
-    position: relative; }
-    .foter-partial-3b2d84 .content-gris .image-footer-izquierda {
-      position: absolute;
-      max-width: 133px;
-      top: 0;
-      left: 0; }
-    .foter-partial-3b2d84 .content-gris .image-footer-derecha {
-      position: absolute;
-      right: 0;
-      top: 0;
-      max-width: 133px; }
-    @media (max-width: 1135px) {
-      .foter-partial-3b2d84 .content-gris .image-footer-izquierda, .foter-partial-3b2d84 .content-gris .image-footer-derecha {
-        display: none; } }
   .foter-partial-3b2d84 .text-footer-content {
     padding: 3rem 0; }
-    .foter-partial-3b2d84 .text-footer-content .title-footer {
-      color: #f1ead6;
-      font-family: 'Montserrat-Bold', sans-serif;
-      font-weight: 700;
-      font-size: 40px; }
-    .foter-partial-3b2d84 .text-footer-content .description-footer {
-      color: #f1ead6;
-      font-size: 18px;
-      font-family: 'Montserrat-Regular', sans-serif; }
-    .foter-partial-3b2d84 .text-footer-content .btn-view-more-footer {
-      text-decoration: none;
-      color: #5e6464;
-      background: white;
-      padding: 10px 60px;
-      font-family: 'Montserrat-Regular', sans-serif; }
+    .foter-partial-3b2d84 .text-footer-content .info-contacto {
+      color: #f2ebd7;
+      font-family: 'Montserrat-Light', sans-serif; }
+      .foter-partial-3b2d84 .text-footer-content .info-contacto span {
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-weight: bold; }
 
 .header-partial-3cace4 {
   background: #f2ebd7;
@@ -172,12 +142,6 @@ html, body {
   @media (max-width: 768px) {
     #proceso-template-037af5 .content-process .content-image, #proceso-template-037af5 .content-process .information {
       text-align: center; } }
-  #proceso-template-037af5 .info-contacto {
-    color: #f2ebd7;
-    font-family: 'Montserrat-Light', sans-serif; }
-    #proceso-template-037af5 .info-contacto span {
-      font-family: 'Montserrat-Bold', sans-serif;
-      font-weight: bold; }
 
 #home-template-b95c23 a {
   text-decoration: none !important; }
@@ -419,4 +383,14 @@ html, body {
         color: #f1ead6; }
     #home-template-b95c23 .section-blog-faq .content-btn-fqa-actions .btn-show-more-fqa {
       padding: 16px 20px; }
+
+#home-template-b95c23 .banner-footer {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 545px;
+  padding: 4rem 0; }
+  #home-template-b95c23 .banner-footer .logo-footer {
+    max-width: 813px;
+    width: 100%; }
 

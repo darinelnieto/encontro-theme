@@ -311,4 +311,16 @@
         }
         
     }
+    // banner footer 
+    .banner-footer{
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 545px;
+        padding: 4rem 0;
+        .logo-footer{
+            max-width: 813px;
+            width: 100%;
+        }
+    }
 }

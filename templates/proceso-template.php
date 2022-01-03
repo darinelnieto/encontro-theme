@@ -31,17 +31,6 @@ get_header();
                 } ?>
             </div>
         </div>
-        <!-- informacion de contacto -->
-        <?php $info_contacto = get_field('contacto'); ?>
-        <div class="row pb-5">
-            <div class="col-12 text-center">
-                <p class="info-contacto">
-                    <span><?php echo $info_contacto['email'] ?></span>
-                    <br>
-                    <?php echo $info_contacto['ciudad_pais'] ?>
-                </p>
-            </div>
-        </div>
     </div>
 </main>
 <?php get_footer(); ?>

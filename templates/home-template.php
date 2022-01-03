@@ -133,7 +133,7 @@ $btn_banner = get_field('btn');
                 <!-- post -->
                 <div class="col-12 col-lg-7">
                     <?php get_template_part('partials/query-post'); ?>
-                    <div class="text-center mt-5">
+                    <div class="text-center mt-5 mb-5 mb-lg-0">
                         <a href="" class="view-blog-link">Ver todo el blog</a>
                     </div>
                 </div>
@@ -162,6 +162,18 @@ $btn_banner = get_field('btn');
         </div>
     </section>
     <!-- end section blog faq -->
+    <!-- banner footer -->
+    <?php $banner_footer = get_field('banner_footer'); ?>
+    <section class="banner-footer" style="background-image:url(<?php echo $banner_footer['imagen_de_fondo'] ?>);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="<?php echo $banner_footer['imagen_marca']['url'] ?>" class="logo-footer" alt="<?php echo $banner_footer['imagen_marca']['title'] ?>">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner footer -->
 </main>
 <?php get_footer(); ?>
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
