@@ -14,7 +14,7 @@ $ayuda = get_field('te_ayudamos', 'option');
 <section class="header-partial-3cace4">
     <div class="container">
         <div class="row alinea-row">
-            <div class="col-12 col-lg-8">
+            <div class="col-8">
                 <div class="row">
                     <div class="col-6 text-center">
                         <a href="<?php echo home_url(); ?>">
@@ -23,23 +23,22 @@ $ayuda = get_field('te_ayudamos', 'option');
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-4">
                 <nav class="navbar">
-                    <div class="main-menu">
-                    <div class="hamburguer" onclick="ditto.menu(this)">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <div class="menu-hamburguesa">
+                        <span><hr></span>
+                        <span><hr></span>
+                        <span><hr></span>
                     </div>
-                    <?php
-                        wp_nav_menu([
-                        'menu'            => 'main_menu',
-                        'theme_location'  => 'main_menu',
-                        'container'       => 'div',
-                        'menu_class'      => 'main-menu-list',
-                        ]);
-                    ?>   
+                    <div class="main-menu">
+                        <?php
+                            wp_nav_menu([
+                            'menu'            => 'main_menu',
+                            'theme_location'  => 'main_menu',
+                            'container'       => 'div',
+                            'menu_class'      => 'main-menu-list',
+                            ]);
+                        ?>   
                     </div>
                 </nav>
             </div>

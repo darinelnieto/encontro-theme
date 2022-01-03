@@ -387,6 +387,21 @@
                     "prepend": "",
                     "append": "",
                     "maxlength": ""
+                },
+                {
+                    "key": "field_61d35ab750f2d",
+                    "label": "link pagina proceso",
+                    "name": "link_pagina_proceso",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url"
                 }
             ]
         },
@@ -403,7 +418,7 @@
                 "class": "",
                 "id": ""
             },
-            "layout": "table",
+            "layout": "block",
             "sub_fields": [
                 {
                     "key": "field_61c34c2182ca6",
@@ -528,6 +543,21 @@
                     "prepend": "",
                     "append": "",
                     "maxlength": ""
+                },
+                {
+                    "key": "field_61d35b1165b22",
+                    "label": "link pagina proceso",
+                    "name": "link_pagina_proceso",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
                 }
             ]
         },
@@ -831,5 +861,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1640209722
+    "modified": 1641241415
 }

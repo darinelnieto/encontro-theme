@@ -24,3 +24,10 @@ var acc = jQuery('.question');
         }
     });
     }
+
+jQuery('.menu-hamburguesa').on('click', function(){
+    jQuery('.main-menu').css({'display':'block'});
+});
+jQuery('.main-menu').on('click', function(){
+    jQuery('.main-menu').css({'display':'none'});
+})
