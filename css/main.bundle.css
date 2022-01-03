@@ -179,6 +179,11 @@ html, body {
       font-family: 'Montserrat-Bold', sans-serif;
       font-weight: bold; }
 
+#home-template-b95c23 a {
+  text-decoration: none !important; }
+  #home-template-b95c23 a:hover {
+    text-decoration: none !important; }
+
 #home-template-b95c23 .banner-home {
   background: #f2ebd7;
   padding: 4rem 0; }

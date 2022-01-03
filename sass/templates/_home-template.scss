@@ -1,4 +1,10 @@
 #home-template-b95c23 {
+    a{
+        text-decoration: none !important;
+        &:hover{
+            text-decoration: none !important;
+        }
+    }
     .banner-home{
         background: #f2ebd7;
         padding: 4rem 0;
