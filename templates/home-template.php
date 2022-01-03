@@ -155,7 +155,7 @@ $btn_banner = get_field('btn');
                     <?php $pregunta = get_field('pregunta'); ?>
                     <div class="content-btn-fqa-actions">
                         <!-- <a href="" class="btn-show-more-fqa">Ver más</a> -->
-                        <a href="<?php echo $pregunta['link_whatsapp'] ?>" class="btn-i-have-a-question"><span><img src="<?php echo $pregunta['icono_whatsapp'] ?>" alt=""></span><span>Tengo una <br> pregunta</span></a>
+                        <a href="<?php echo $pregunta['link_whatsapp'] ?>" target="_blank" class="btn-i-have-a-question"><span><img src="<?php echo $pregunta['icono_whatsapp'] ?>" alt=""></span><span>Tengo una <br> pregunta</span></a>
                     </div>
                 </div>
             </div>
