@@ -22,6 +22,11 @@
                 line-height: 2;
             }
         }
+        @media(max-width:768px){
+            .content-image, .information{
+                text-align: center;
+            }
+        }
     }
     .info-contacto{
         color:#f2ebd7;

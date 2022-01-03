@@ -20,7 +20,7 @@ get_header();
                 <?php if(get_field('contenido')){
                     foreach(get_field('contenido') as $process){ ?>
                         <div class="row mb-5">
-                            <div class="col-12 col-lg-2 mb-5 mb-lg-0">
+                            <div class="col-12 col-lg-2 mb-5 mb-lg-0 content-image">
                                 <img src="<?php echo $process['icono'] ?>" alt="" class="image-process">
                             </div>
                             <div class="col-12 col-lg-10 information">

@@ -139,6 +139,9 @@ html, body {
     color: #f2ebd7;
     font-family: 'Montserrat-Light', sans-serif;
     line-height: 2; }
+  @media (max-width: 768px) {
+    #proceso-template-037af5 .content-process .content-image, #proceso-template-037af5 .content-process .information {
+      text-align: center; } }
   #proceso-template-037af5 .info-contacto {
     color: #f2ebd7;
     font-family: 'Montserrat-Light', sans-serif; }
