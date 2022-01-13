@@ -134,7 +134,7 @@ $btn_banner = get_field('btn');
                 <div class="col-12 col-lg-7">
                     <?php get_template_part('partials/query-post'); ?>
                     <div class="text-center mt-5 mb-5 mb-lg-0">
-                        <a href="" class="view-blog-link">Ver todo el blog</a>
+                        <p class="view-blog-link">Proximamente blog</p>
                     </div>
                 </div>
                 <!-- faq -->
