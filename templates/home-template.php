@@ -80,7 +80,7 @@ $btn_banner = get_field('btn');
                     </a>
                 </div>
                 <div class="col-12 col-lg-4 text-center btn-descarga-decktop">
-                    <a href="<?php echo $grupo_dos['archivo_a_descargar']['url'] ?>" target="_blank" class="btn-descarga-solicitud">
+                    <a href="<?php echo $grupo_dos['archivo_a_descargar']['url'] ?>" download="" target="_blank" class="btn-descarga-solicitud">
                         <p><strong>Descarga</strong><br> <?php echo $grupo_dos['texto_boton_descarga'] ?></p>
                     </a>
                 </div>
