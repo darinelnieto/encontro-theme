@@ -17,7 +17,7 @@ $posts = new WP_Query(array('post_type' => 'post', 'posts_per_page' => 2, 'order
         <?php if($posts->have_posts()){
             while ($posts->have_posts()) { $posts->the_post(); ?>
                 <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                    <a href="<?php echo get_permalink( )?>">
+                    <!-- <a href="<?php echo get_permalink( )?>"> -->
                         <div class="card">
                             <div class="content-image-post" style="background-image:url(<?php echo get_field('imagen_destacada', $posts->ID)?>)"></div>
                             <div class="card-body">
@@ -26,7 +26,7 @@ $posts = new WP_Query(array('post_type' => 'post', 'posts_per_page' => 2, 'order
                                 <p class="data-post"><?php echo get_the_date('d/m/y', $posts->ID) ?></p>
                             </div>
                         </div>
-                    </a>
+                    <!-- </a> -->
                 </div>
             <?php }
              wp_reset_postdata();
