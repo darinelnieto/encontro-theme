@@ -30,20 +30,7 @@ $btn_banner = get_field('btn');
     </section>
     <!-- end banner -->
     <!-- section form -->
-    <section class="form-home">
-        <img src="<?php echo get_field('imagen_adorno_izquierda') ?>" class="imagen-izquierda-formulario" alt="">
-        <div class="container">
-            <div class="row alinea-row">
-                <div class="col-12 col-lg-4">
-                    <h3><?php echo get_field('titulo_introduccion') ?></h3>
-                </div>
-                <div class="col-12 col-lg-8 content-form">
-                    <?php echo do_shortcode(get_field('shortcode')) ?>
-                </div>
-            </div>
-        </div>
-        <img src="<?php echo get_field('imagen_adorno_derecha') ?>" class="imagen-derecha-formulario" alt="">
-    </section>
+    <?php get_template_part('partials/form'); ?>
     <!-- end section form -->
     <!-- section one -->
     <section class="section-one-home">
@@ -176,18 +163,3 @@ $btn_banner = get_field('btn');
     <!-- banner footer -->
 </main>
 <?php get_footer(); ?>
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script>
-    $('.envia').prop('disabled', true);
-    $('#check-acepta').on('click', function(){
-        $('input[type=checkbox]').on('click');
-	    if($('input[type=checkbox]').prop("checked") == true ){
-			$('.acepta-politicas').css({'background':'black'});
-            $('.envia').prop('disabled', false);
-		}else{
-			$('.acepta-politicas').css({'background':'#5e6464'});
-            $('.envia').prop('disabled', true);
-		}
-    });
-</script>
-                    

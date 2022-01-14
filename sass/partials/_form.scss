@@ -1,0 +1,82 @@
+.form-partial-75821d {
+    background: #a8a89e;
+        position: relative;
+        min-height: 332px;
+        padding: 5rem 0;
+        h3{
+            font-family: 'Montserrat-Bold', sans-serif;
+            color: #5e6464;
+            font-weight: 700;
+        }
+        .imagen-izquierda-formulario{
+            position: absolute;
+            left: 0;
+            top: 0;
+            max-width: 170px;
+        }
+        .imagen-derecha-formulario{
+            position: absolute;
+            right: 0;
+            max-width: 170px;
+            top: 0;
+        }
+        @media(max-width:1135px){
+            .imagen-izquierda-formulario, .imagen-derecha-formulario{
+                display: none;
+            }
+        }
+        .content-form{
+            input[type="text"], input[type="email"], input[type="tel"]{
+                width: 100%;
+                outline: none;
+                background: #f2ebd7;
+                color: 5e6464;
+                border: none;
+                margin-bottom:10px;
+                padding: 0 20px;
+                height: 35px;
+                font-family: 'Montserrat-ExtraLight', sans-serif;
+            }
+            label{
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: 10px;
+                cursor: pointer;
+                .wpcf7-form-control-wrap.acceptance-719{
+                    display: none;
+                }
+                .acepta-politicas{
+                    min-width: 23px;
+                    max-width:23px;
+                    height: 23px;
+                    border-radius: 50%;
+                    border:6px solid #f2ebd7;
+                    background: #5e6464;
+                    margin-right: 10px;
+                }
+                .text-acetptacion{
+                    color: #5e6464;
+                    font-size: 12px;
+                    font-family: 'Montserrat-Regular', sans-serif;
+                }
+            }
+            .content-submit{
+                position: relative;
+                input[type="submit"]{
+                    background: #f2ebd7;
+                    border: none;
+                    color: #5e6464;
+                    font-family: 'Montserrat-Regular', sans-serif;
+                    width: 100%;
+                    height: 40px;
+                    box-shadow: 0 0 6px 0px;
+                    outline: none;
+                }
+                .wpcf7-spinner{
+                    position: absolute;
+                    bottom: -31px;
+                    left: 36%;
+                }
+            }
+        }
+}

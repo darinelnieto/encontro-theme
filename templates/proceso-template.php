@@ -32,6 +32,8 @@ get_header();
             </div>
         </div>
     </div>
+    <!-- content form -->
+    <?php get_template_part('partials/form'); ?>
 </main>
 <?php get_footer(); ?>
                     
