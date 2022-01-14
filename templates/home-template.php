@@ -20,7 +20,7 @@ $btn_banner = get_field('btn');
                     <h1><?php echo get_field('titulo') ?></h1>
                     <h3><?php echo get_field('subtitulo_banner') ?></h3>
                     <p><?php echo get_field('descripcion') ?></p>
-                    <a href="<?php echo $btn_banner['link']['url'] ?>"><?php echo $btn_banner['nombre_del_boton'] ?></a>
+                    <a href="<?php echo $btn_banner['link']['url'] ?>" target="_blank"><?php echo $btn_banner['nombre_del_boton'] ?></a>
                 </div>
                 <div class="col-12 col-lg-5 offset-lg-1 mt-5 mt-lg-0">
                     <img src="<?php echo get_field('image')['url'] ?>" class="img-banner-home" alt="<?php echo get_field('image')['title'] ?>">
@@ -46,13 +46,13 @@ $btn_banner = get_field('btn');
             <div class="row aliea-row">
                 <div class="col-12 col-lg-6 text-center content-grupo-uno">
                     <a href="<?php echo $grupo_uno['link_pagina_proceso'] ?>">
-                        <img src="<?php echo $grupo_uno['icono_list'] ?>" alt="" class="icon-grupos">
+                        <img src="<?php echo $grupo_uno['icono_list'] ?>" alt="" class="icon-grupos" data-aos="fade-up-right">
                         <p><?php echo $grupo_uno['texto_icono_list'] ?></p>
                     </a>
                 </div>
                 <div class="col-12 col-lg-6 text-center content-grupo-uno">
                     <a href="<?php echo $grupo_uno['link_pagina_proceso'] ?>">
-                        <img src="<?php echo $grupo_uno['icono_start'] ?>" alt="" class="icon-grupos">
+                        <img src="<?php echo $grupo_uno['icono_start'] ?>" alt="" class="icon-grupos" data-aos="fade-up-left">
                         <p><?php echo $grupo_uno['texto_icono_start'] ?></p>
                     </a>
                 </div>
@@ -62,7 +62,7 @@ $btn_banner = get_field('btn');
             <div class="row alinea-row">
                 <div class="col-12 col-lg-4 content-icon-requisitos">
                     <a href="<?php echo $grupo_dos['link_pagina_proceso']['url'] ?>">
-                        <img src="<?php echo $grupo_dos['icono_requisitos'] ?>" alt="" class="icon-grupos">
+                        <img src="<?php echo $grupo_dos['icono_requisitos'] ?>" alt="" class="icon-grupos" data-aos="fade-up-right">
                         <p><?php echo $grupo_dos['texto_requisitos'] ?></p>
                     </a>
                 </div>
@@ -73,7 +73,7 @@ $btn_banner = get_field('btn');
                 </div>
                 <div class="col-12 col-lg-4 content-icon-solicitud">
                     <a href="<?php echo $grupo_dos['link_pagina_proceso']['url'] ?>">
-                        <img src="<?php echo $grupo_dos['icono_solucitud'] ?>" alt="" class="icon-grupos">
+                        <img src="<?php echo $grupo_dos['icono_solucitud'] ?>" alt="" class="icon-grupos" data-aos="fade-up-left">
                         <p><?php echo $grupo_dos['texto_icono_solicitud'] ?></p>
                     </a>
                 </div>
@@ -105,8 +105,8 @@ $btn_banner = get_field('btn');
             <div class="container">
                 <div class="row">
                     <div class="col-12 parallax-text">
-                        <h2><?php echo get_field('titulo_parallax') ?></h2>
-                        <p><?php echo get_field('informacion_parallax') ?></p>
+                        <h2 data-aos="zoom-out-down"><?php echo get_field('titulo_parallax') ?></h2>
+                        <p data-aos="zoom-out-down"><?php echo get_field('informacion_parallax') ?></p>
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@ $btn_banner = get_field('btn');
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <img src="<?php echo $banner_footer['imagen_marca']['url'] ?>" class="logo-footer" alt="<?php echo $banner_footer['imagen_marca']['title'] ?>">
+                    <img src="<?php echo $banner_footer['imagen_marca']['url'] ?>" data-aos="zoom-in" class="logo-footer" alt="<?php echo $banner_footer['imagen_marca']['title'] ?>">
                 </div>
             </div>
         </div>
