@@ -20,11 +20,11 @@ $posts = new WP_Query(array('post_type' => 'post', 'posts_per_page' => 2, 'order
                     <!-- <a href="<?php echo get_permalink( )?>"> -->
                         <div class="card">
                             <div class="content-image-post" style="background-image:url(<?php echo get_field('imagen_destacada', $posts->ID)?>)"></div>
-                            <div class="card-body">
+                            <!-- <div class="card-body">
                                 <p class="title"><?php echo get_the_title($posts->ID) ?></p>
                                 <p><?php echo get_field('descripcion_corta', $posts->ID) ?></p>
                                 <p class="data-post"><?php echo get_the_date('d/m/y', $posts->ID) ?></p>
-                            </div>
+                            </div> -->
                         </div>
                     <!-- </a> -->
                 </div>
