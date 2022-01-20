@@ -162,4 +162,5 @@ $btn_banner = get_field('btn');
     </section>
     <!-- banner footer -->
 </main>
+
 <?php get_footer(); ?>
