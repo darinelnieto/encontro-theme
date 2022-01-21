@@ -99,7 +99,7 @@ body {
       left: 36%; }
   .form-partial-75821d .wpcf7-response-output {
     background: #f2ebd7;
-    border-color: #f2ebd7; }
+    border-color: #f2ebd7 !important; }
 
 .query-post-partial-79a506 .content-post a {
   text-decoration: none; }
