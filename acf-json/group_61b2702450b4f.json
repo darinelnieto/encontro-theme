@@ -826,9 +826,9 @@
     "location": [
         [
             {
-                "param": "page",
+                "param": "page_template",
                 "operator": "==",
-                "value": "5"
+                "value": "templates\/home-template.php"
             }
         ]
     ],
@@ -840,5 +840,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1642171433
+    "modified": 1642772468
 }

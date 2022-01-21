@@ -7,6 +7,9 @@ html, body {
 body {
   background: #5e6464 !important; }
 
+.no-js {
+  margin-top: 0 !important; }
+
 @font-face {
   font-family: 'Montserrat-Bold';
   src: url(079ca05d3ded9bc107ab8a8da013be22.ttf); }
