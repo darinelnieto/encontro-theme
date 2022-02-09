@@ -1,14 +1,32 @@
 .foter-partial-3b2d84 {
-    background:#5e6464;
-    .text-footer-content{
-        padding: 3rem 0;
-        .info-contacto{
-            color:#f2ebd7;
-            font-family: 'Montserrat-Light', sans-serif;
-            span{
-                font-family: 'Montserrat-Bold', sans-serif;
-                font-weight: bold;
+    .content-gris{
+        background:#5e6464;
+        .text-footer-content{
+            padding: 3rem 0;
+            .info-contacto{
+                color:#f2ebd7;
+                font-family: 'Montserrat-Light', sans-serif;
+                span{
+                    font-family: 'Montserrat-Bold', sans-serif;
+                    font-weight: bold;
+                }
             }
+        }
+    }
+    .content-logos-footer{
+        background: #f1ead6;
+        padding: 3rem 0;
+        .izquierda{
+            max-width: 284px;
+            height: auto;
+        }
+        .centro{
+            max-width: 496px;
+            height: auto;
+        }
+        .derecha{
+            max-width: 160px;
+            height: auto;
         }
     }
 }
