@@ -193,17 +193,72 @@ body {
         right: 0;
         z-index: 100;
         display: none; }
-        .header-partial-3cace4 .alinea-row .navbar .main-menu .main-menu-list {
+        .header-partial-3cace4 .alinea-row .navbar .main-menu .menu-menu-1-container {
           background: #5e6464;
           width: 250px;
           height: 100vh;
           float: right; }
-          .header-partial-3cace4 .alinea-row .navbar .main-menu .main-menu-list ul {
+          .header-partial-3cace4 .alinea-row .navbar .main-menu .menu-menu-1-container ul {
             list-style: none;
             padding-top: 3rem; }
-            .header-partial-3cace4 .alinea-row .navbar .main-menu .main-menu-list ul li a {
+            .header-partial-3cace4 .alinea-row .navbar .main-menu .menu-menu-1-container ul li a {
               text-decoration: none;
               color: #f2ebd7; }
+
+#registro-template-12a033 input[type="text"], #registro-template-12a033 input[type="password"] {
+  width: 100% !important;
+  padding: 5px 20px !important;
+  font-family: 'Montserrat-Bold', sans-serif;
+  color: white !important;
+  outline: none; }
+  #registro-template-12a033 input[type="text"]::placeholder, #registro-template-12a033 input[type="password"]::placeholder {
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: white !important; }
+
+#registro-template-12a033 #pie_register .fieldset span.show-hide-password-innerbtn.pass-eye-reg_left_label_no_desc {
+  bottom: 63% !important; }
+
+#registro-template-12a033 #pie_register .fieldset span.show-hide-password-innerbtn.confirm-pass-eye-reg_left_label_no_desc, #registro-template-12a033 #pie_register .fieldset span.show-hide-password-innerbtn.confirm-pass-eye-reg_top_label_no_desc {
+  bottom: 14% !important; }
+
+#registro-template-12a033 #password_meter label {
+  display: none; }
+
+#registro-template-12a033 #password_meter #piereg_passwordStrength {
+  margin: 0 auto !important;
+  float: none !important; }
+
+#registro-template-12a033 .pieregWrapper #pie_register .fields input[type="submit"], #registro-template-12a033 .pieregWrapper #pie_register .fields input[type="reset"] {
+  float: none !important;
+  border: none;
+  background: #f2ebd7;
+  font-family: 'Montserrat-Bold', sans-serif;
+  color: #5e6464; }
+
+#registro-template-12a033 #piereg_pie_form_desc {
+  font-family: 'Montserrat-Bold', sans-serif;
+  color: white; }
+
+#registro-template-12a033 #pie_register .fields .fieldset .password_field span.eye::after, #registro-template-12a033 #pie_register .fields .fieldset span.eye::after, #registro-template-12a033 .piereg_resetpassform .field span.eye::after,
+#registro-template-12a033 #pie_register .fields .fieldset .password_field .eye-slash::after, #registro-template-12a033 #pie_register .fields .fieldset span.eye-slash::after, #registro-template-12a033 .piereg_resetpassform .field span.eye-slash::after {
+  filter: invert(1); }
+
+#registro-template-12a033 .piereg_container div.piereg_login_container .forgetmenot [type="checkbox"]:checked + label:before, #registro-template-12a033 .piereg_container div.piereg_login_container .forgetmenot [type="checkbox"]:not(:checked) + label:before {
+  left: 5rem; }
+
+#registro-template-12a033 .piereg_login_container .piereg_login_wrapper .piereg_loginform .forgetmenot,
+#registro-template-12a033 .piereg_login_container .piereg_login_wrapper .piereg_loginform p#nav, #registro-template-12a033 .piereg_login_container .piereg_login_wrapper .piereg_resetpassform p.nav {
+  margin: 0 auto; }
+  #registro-template-12a033 .piereg_login_container .piereg_login_wrapper .piereg_loginform .forgetmenot a,
+  #registro-template-12a033 .piereg_login_container .piereg_login_wrapper .piereg_loginform p#nav a, #registro-template-12a033 .piereg_login_container .piereg_login_wrapper .piereg_resetpassform p.nav a {
+    color: white !important; }
+
+#registro-template-12a033 .piereg_container .piereg_login_wrapper .submit input[type="submit"], #registro-template-12a033 .pieregWrapper input[type="submit"], #registro-template-12a033 .pieregWrapper .pie_prev, #registro-template-12a033 .pieregWrapper .pie_next, #registro-template-12a033 #piereg_login form#piereg_lostpasswordform p input[type="submit"], #registro-template-12a033 .pieregWrapper input[type="reset"], #registro-template-12a033 .pieregWrapper input[type="button"], #registro-template-12a033 .pieregWrapper input[type="reset"] {
+  float: none !important;
+  border: none;
+  background: #f2ebd7;
+  font-family: 'Montserrat-Bold', sans-serif;
+  color: #5e6464; }
 
 #proceso-template-037af5 {
   background: #5e6464; }

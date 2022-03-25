@@ -1,0 +1,60 @@
+#registro-template-12a033 {
+    input[type="text"], input[type="password"]{
+        width: 100% !important;
+        padding: 5px 20px !important;
+        font-family: 'Montserrat-Bold', sans-serif;
+        color: white !important;
+        outline: none;
+        &::placeholder{
+            font-family: 'Montserrat-Bold', sans-serif;
+            color: white !important;
+        }
+    }
+    #pie_register .fieldset span.show-hide-password-innerbtn.pass-eye-reg_left_label_no_desc{
+        bottom: 63% !important;
+    }
+    #pie_register .fieldset span.show-hide-password-innerbtn.confirm-pass-eye-reg_left_label_no_desc, #pie_register .fieldset span.show-hide-password-innerbtn.confirm-pass-eye-reg_top_label_no_desc{
+        bottom: 14% !important;
+    }
+    #password_meter{
+        label{
+            display: none;
+        }
+        #piereg_passwordStrength{
+            margin: 0 auto !important;
+            float: none !important;
+        }
+    }
+    .pieregWrapper #pie_register .fields input[type="submit"], .pieregWrapper #pie_register .fields input[type="reset"]{
+        float: none !important;
+        border: none;
+        background: #f2ebd7;
+        font-family: 'Montserrat-Bold', sans-serif;
+        color: #5e6464;
+    }
+    #piereg_pie_form_desc{
+        font-family: 'Montserrat-Bold', sans-serif;
+        color: white;
+    }
+    #pie_register .fields .fieldset .password_field span.eye::after, #pie_register .fields .fieldset span.eye::after, .piereg_resetpassform .field span.eye::after,
+    #pie_register .fields .fieldset .password_field .eye-slash::after, #pie_register .fields .fieldset span.eye-slash::after, .piereg_resetpassform .field span.eye-slash::after{
+        filter: invert(1);
+    }
+    .piereg_container div.piereg_login_container .forgetmenot [type="checkbox"]:checked + label:before, .piereg_container div.piereg_login_container .forgetmenot [type="checkbox"]:not(:checked) + label:before{
+        left: 5rem;
+    }
+    .piereg_login_container .piereg_login_wrapper .piereg_loginform .forgetmenot,
+    .piereg_login_container .piereg_login_wrapper .piereg_loginform p#nav, .piereg_login_container .piereg_login_wrapper .piereg_resetpassform p.nav{
+        margin: 0 auto;
+        a{
+            color: white !important;
+        }
+    }
+    .piereg_container .piereg_login_wrapper .submit input[type="submit"], .pieregWrapper input[type="submit"], .pieregWrapper .pie_prev, .pieregWrapper .pie_next, #piereg_login form#piereg_lostpasswordform p input[type="submit"], .pieregWrapper input[type="reset"], .pieregWrapper input[type="button"], .pieregWrapper input[type="reset"]{
+        float: none !important;
+        border: none;
+        background: #f2ebd7;
+        font-family: 'Montserrat-Bold', sans-serif;
+        color: #5e6464;
+    }
+}

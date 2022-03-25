@@ -33,8 +33,8 @@ $ayuda = get_field('te_ayudamos', 'option');
                     <div class="main-menu">
                         <?php
                             wp_nav_menu([
-                            'menu'            => 'main_menu',
-                            'theme_location'  => 'main_menu',
+                            'menu'            => 'Menu 1',
+                            'theme_location'  => 'Menu 1',
                             'container'       => 'div',
                             'menu_class'      => 'main-menu-list',
                             ]);
