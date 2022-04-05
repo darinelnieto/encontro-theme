@@ -1,1 +1,11 @@
-#perfil-template-c748bb {}
+#perfil-template-c748bb {
+    background: #f1ead6;
+    padding: 3rem 0;
+    display: flex;
+    .menu-perfil{
+        width: 15%;
+    }
+    .content-forms{
+        width: 85%;
+    }
+}

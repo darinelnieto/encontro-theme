@@ -1,0 +1,65 @@
+.menu-arbol-genealogico-partial-895506 {
+    .form-menu{
+        list-style: none;
+        padding: 0;
+        .menu-item{
+            a{
+                padding-left: 2rem;
+                text-decoration: none;
+                font-family: 'Montserrat-extra-Bold', sans-serif;
+                color: #5e6464;
+                font-weight: 600;
+                width: 200px;
+            }
+            .sub-menu{
+                padding-left: 0;
+                list-style: none;
+                display: none;
+                transition: .5s;
+                .menu-item{
+                    a{
+                        font-size: 14px;
+                        font-weight: 500 !important;
+                    }
+                }
+                
+            }
+            &:hover{
+                .sub-menu{
+                    display: block;
+                    background: #f1ead6;
+                    .menu-item{
+                        a{
+                            font-weight: 500 !important;
+                        }
+                    }
+                }
+            }
+        }
+        #menu-item-257, #menu-item-260, #menu-item-265{
+            position: relative;
+            &::before{
+                content: '';
+                display: block;
+                width: 7px;
+                height: 7px;
+                border-left:1px solid;
+                border-bottom: 1px solid;
+                position: absolute;
+                right: 7px;
+                top: 7px;
+                transform: rotate(-45deg);
+            }
+        }
+        .menu-item.active{
+            background: #a7a79d;
+        }
+        .sub-menu.active{
+            display: block;
+            background-color: transparent;
+            .menu-item.active{
+                background: #a7a79d;
+            }
+        }
+    }
+}

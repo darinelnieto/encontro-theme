@@ -103,3 +103,15 @@ if (function_exists('acf_add_options_page')){
 		'parent_slug'   => 'theme-settings',
 	));
 }
+
+add_action('init', 'forms_arbol_genealogico');
+
+// post type Forms Family tree
+function forms_arbol_genealogico(){
+  $args = array(
+    'public' => true,
+    'label'  => 'Todos Los Formularios',
+    'menu_icon' => 'dashicons-editor-table'
+  );
+  register_post_type('formularios', $args);
+}
