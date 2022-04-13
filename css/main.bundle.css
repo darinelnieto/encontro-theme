@@ -251,12 +251,35 @@ body {
 
 #perfil-template-c748bb {
   background: #f1ead6;
-  padding: 3rem 0;
-  display: flex; }
-  #perfil-template-c748bb .menu-perfil {
-    width: 15%; }
-  #perfil-template-c748bb .content-forms {
-    width: 85%; }
+  padding: 3rem 0; }
+  #perfil-template-c748bb .menu-hamburguesa-family-tree {
+    cursor: pointer;
+    display: none; }
+    #perfil-template-c748bb .menu-hamburguesa-family-tree span > hr {
+      margin: .5rem;
+      width: 30px;
+      color: #5e6464;
+      border: 1px solid #5e6464;
+      opacity: .7; }
+  #perfil-template-c748bb section {
+    display: flex; }
+    #perfil-template-c748bb section .menu-perfil {
+      width: 15%; }
+    #perfil-template-c748bb section .content-forms {
+      width: 85%; }
+    @media (max-width: 768px) {
+      #perfil-template-c748bb section {
+        display: block; }
+        #perfil-template-c748bb section .menu-perfil {
+          width: 100%;
+          position: absolute;
+          background: #f1ead6;
+          display: none; }
+        #perfil-template-c748bb section .content-forms {
+          width: 100%; } }
+  @media (max-width: 768px) {
+    #perfil-template-c748bb .menu-hamburguesa-family-tree {
+      display: block; } }
 
 #registro-template-12a033 input[type="text"], #registro-template-12a033 input[type="password"] {
   width: 100% !important;

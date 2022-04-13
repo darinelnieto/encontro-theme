@@ -158,3 +158,7 @@ jQuery('.main-menu').on('click', function(){
         alert(maxSticky.top);
        }
     });
+
+    jQuery('.menu-hamburguesa-family-tree').on('click', function(){
+        jQuery('.menu-perfil').slideToggle();
+    });

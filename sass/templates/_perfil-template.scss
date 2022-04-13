@@ -1,11 +1,41 @@
 #perfil-template-c748bb {
     background: #f1ead6;
     padding: 3rem 0;
-    display: flex;
-    .menu-perfil{
-        width: 15%;
+    .menu-hamburguesa-family-tree{
+        cursor: pointer;
+        display: none;
+        span > hr{
+            margin:.5rem;
+            width: 30px;
+            color:#5e6464;
+            border: 1px solid #5e6464;
+            opacity: .7;
+        }
     }
-    .content-forms{
-        width: 85%;
+    section{
+        display: flex;
+        .menu-perfil{
+            width: 15%;
+        }
+        .content-forms{
+            width: 85%;
+        }
+        @media(max-width:768px){
+            display: block;
+            .menu-perfil{
+                width: 100%;
+                position: absolute;
+                background: #f1ead6;
+                display: none;
+            }
+            .content-forms{
+                width: 100%;
+            }
+        }
+    }
+    @media(max-width:768px){
+        .menu-hamburguesa-family-tree{
+            display: block;
+        }
     }
 }
