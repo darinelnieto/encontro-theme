@@ -372,12 +372,13 @@ body {
       font-family: 'Montserrat-extra-Bold', sans-serif;
       font-weight: 700;
       margin-bottom: 0;
-      line-height: .5; }
+      line-height: 1.2; }
     #home-template-b95c23 .banner-home .alinea-row .text-banner-home h3 {
       color: #5e6464;
       font-family: 'Montserrat-extra-Bold', sans-serif;
       font-weight: 700;
-      font-size: 34px; }
+      font-size: 34px;
+      line-height: .8; }
     #home-template-b95c23 .banner-home .alinea-row .text-banner-home p {
       color: #5e6464;
       padding-bottom: 1rem;
