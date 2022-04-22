@@ -44,43 +44,8 @@ $btn_banner = get_field('btn');
             <!-- grupo uno -->
             <?php $grupo_uno = get_field('grupo_uno'); ?>
             <div class="row aliea-row">
-                <div class="col-12 col-lg-6 text-center content-grupo-uno">
-                    <a href="<?php echo $grupo_uno['link_pagina_proceso'] ?>">
-                        <img src="<?php echo $grupo_uno['icono_list'] ?>" alt="" class="icon-grupos" data-aos="fade-up-right">
-                        <p><?php echo $grupo_uno['texto_icono_list'] ?></p>
-                    </a>
-                </div>
-                <div class="col-12 col-lg-6 text-center content-grupo-uno">
-                    <a href="<?php echo $grupo_uno['link_pagina_proceso'] ?>">
-                        <img src="<?php echo $grupo_uno['icono_start'] ?>" alt="" class="icon-grupos" data-aos="fade-up-left">
-                        <p><?php echo $grupo_uno['texto_icono_start'] ?></p>
-                    </a>
-                </div>
-            </div>
-            <!-- grupo dos -->
-            <?php $grupo_dos = get_field('grupo_dos'); ?>
-            <div class="row alinea-row">
-                <div class="col-12 col-lg-4 content-icon-requisitos">
-                    <a href="<?php echo $grupo_dos['link_pagina_proceso']['url'] ?>">
-                        <img src="<?php echo $grupo_dos['icono_requisitos'] ?>" alt="" class="icon-grupos" data-aos="fade-up-right">
-                        <p><?php echo $grupo_dos['texto_requisitos'] ?></p>
-                    </a>
-                </div>
-                <div class="col-12 col-lg-4 text-center btn-descarga-decktop">
-                    <a href="<?php echo $grupo_dos['archivo_a_descargar']['url'] ?>" download="" target="_blank" class="btn-descarga-solicitud">
-                        <p><strong>Descarga</strong><br> <?php echo $grupo_dos['texto_boton_descarga'] ?></p>
-                    </a>
-                </div>
-                <div class="col-12 col-lg-4 content-icon-solicitud">
-                    <a href="<?php echo $grupo_dos['link_pagina_proceso']['url'] ?>">
-                        <img src="<?php echo $grupo_dos['icono_solucitud'] ?>" alt="" class="icon-grupos" data-aos="fade-up-left">
-                        <p><?php echo $grupo_dos['texto_icono_solicitud'] ?></p>
-                    </a>
-                </div>
-                <div class="col-12 col-lg-4 text-center btn-descarga-movil">
-                    <a href="<?php echo $grupo_dos['archivo_a_descargar']['url'] ?>" download="" class="btn-descarga-solicitud">
-                        <p><strong>Descarga</strong><br> <?php echo $grupo_dos['texto_boton_descarga'] ?></p>
-                    </a>
+                <div class="col-12 col-md-8 offset-md-2 content-proceso">
+                   <?= $grupo_uno; ?>
                 </div>
             </div>
         </div>
