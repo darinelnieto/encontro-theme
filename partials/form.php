@@ -15,6 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
         <div class="row alinea-row">
             <div class="col-12 col-lg-4">
                 <h3><?php echo get_field('titulo_introduccion', 'option') ?></h3>
+                <p><?= get_field('fecha_limite', 'option') ?></p>
             </div>
             <div class="col-12 col-lg-8 content-form">
                 <?php echo do_shortcode(get_field('shortcode', 'option')) ?>
