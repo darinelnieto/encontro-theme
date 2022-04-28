@@ -30,7 +30,7 @@ $previu = get_field('formulario_anterior');
                     </div>
                     <div class="col-12 mt-5 content-next-prev">
                         <?php if($previu): ?>
-                            <a href="<?= $previu ?>"><i class="fas fa-angle-left"></i>  Siguiente</i></a>
+                            <a href="<?= $previu ?>"><i class="fas fa-angle-left"></i>  Anterior</i></a>
                         <?php endif; ?>
                         <?php if($next): ?>
                             <a href="<?= $next ?>">Siguiente <i class="fas fa-angle-right"></i></a>
