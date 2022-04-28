@@ -19,6 +19,16 @@
         }
         .content-forms{
             width: 85%;
+            .content-next-prev{
+                display: flex;
+                justify-content: space-around;
+                padding: 0 1rem;
+                a{
+                    color:#5e6464;
+                    text-decoration: none; 
+                    font-family: 'Montserrat-Regular', sans-serif;
+                }
+            }
         }
         @media(max-width:768px){
             display: block;
@@ -30,6 +40,9 @@
             }
             .content-forms{
                 width: 100%;
+                .content-next-prev{
+                    text-align: center;
+                }
             }
         }
     }

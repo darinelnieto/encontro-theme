@@ -9,6 +9,8 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly.
 }
 get_header();
+$next = get_field('formulario_siguiente');
+$previu = get_field('formulario_anterior');
 ?>
 <main id="perfil-template-c748bb">
     <div class="menu-hamburguesa-family-tree">
@@ -25,6 +27,14 @@ get_header();
                 <div class="row">
                     <div class="col-12">
                         <?= the_content(); ?>
+                    </div>
+                    <div class="col-12 mt-5 content-next-prev">
+                        <?php if($previu): ?>
+                            <a href="<?= $previu ?>"><i class="fas fa-angle-left"></i>  Siguiente</i></a>
+                        <?php endif; ?>
+                        <?php if($next): ?>
+                            <a href="<?= $next ?>">Siguiente <i class="fas fa-angle-right"></i></a>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>

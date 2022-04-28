@@ -271,6 +271,14 @@ body {
       width: 15%; }
     #perfil-template-c748bb section .content-forms {
       width: 85%; }
+      #perfil-template-c748bb section .content-forms .content-next-prev {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 1rem; }
+        #perfil-template-c748bb section .content-forms .content-next-prev a {
+          color: #5e6464;
+          text-decoration: none;
+          font-family: 'Montserrat-Regular', sans-serif; }
     @media (max-width: 768px) {
       #perfil-template-c748bb section {
         display: block; }
@@ -280,7 +288,9 @@ body {
           background: #f1ead6;
           display: none; }
         #perfil-template-c748bb section .content-forms {
-          width: 100%; } }
+          width: 100%; }
+          #perfil-template-c748bb section .content-forms .content-next-prev {
+            text-align: center; } }
   @media (max-width: 768px) {
     #perfil-template-c748bb .menu-hamburguesa-family-tree {
       display: block; } }
