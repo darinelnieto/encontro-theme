@@ -28,7 +28,7 @@ $previu = get_field('formulario_anterior');
                     <div class="col-12">
                         <?= the_content(); ?>
                     </div>
-                    <div class="col-12 mt-5 content-next-prev">
+                    <div class="col-12 mt-5 content-next-prev <?php if(! $previu): ?>next<?php endif; ?> <?php if(! $next): ?>prev<?php endif; ?>">
                         <?php if($previu): ?>
                             <a href="<?= $previu ?>"><i class="fas fa-angle-left"></i>  Anterior</i></a>
                         <?php endif; ?>

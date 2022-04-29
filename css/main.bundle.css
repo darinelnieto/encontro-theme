@@ -270,15 +270,26 @@ body {
     #perfil-template-c748bb section .menu-perfil {
       width: 15%; }
     #perfil-template-c748bb section .content-forms {
-      width: 85%; }
+      width: 85%;
+      position: relative; }
       #perfil-template-c748bb section .content-forms .content-next-prev {
         display: flex;
         justify-content: space-around;
-        padding: 0 1rem; }
+        padding: 0 1rem;
+        position: absolute;
+        bottom: .5rem; }
         #perfil-template-c748bb section .content-forms .content-next-prev a {
           color: #5e6464;
           text-decoration: none;
           font-family: 'Montserrat-Regular', sans-serif; }
+      #perfil-template-c748bb section .content-forms .content-next-prev.next {
+        display: block;
+        text-align: right;
+        right: 20%; }
+      #perfil-template-c748bb section .content-forms .content-next-prev.prev {
+        display: block;
+        text-align: left;
+        left: 20%; }
     @media (max-width: 768px) {
       #perfil-template-c748bb section {
         display: block; }
@@ -286,14 +297,25 @@ body {
           width: 100%;
           position: absolute;
           background: #f1ead6;
-          display: none; }
+          display: none;
+          z-index: 100;
+          box-shadow: 0 3px 3px 0 #777; }
         #perfil-template-c748bb section .content-forms {
           width: 100%; }
           #perfil-template-c748bb section .content-forms .content-next-prev {
             text-align: center; } }
+    @media (max-width: 720px) {
+      #perfil-template-c748bb section .content-next-prev, #perfil-template-c748bb section .content-next-prev.prev, #perfil-template-c748bb section .content-next-prev.next {
+        text-align: center !important;
+        position: relative !important;
+        left: 0 !important;
+        right: 0 !important; } }
   @media (max-width: 768px) {
     #perfil-template-c748bb .menu-hamburguesa-family-tree {
       display: block; } }
+  #perfil-template-c748bb .btn-submit-form {
+    position: relative;
+    z-index: 100; }
 
 #registro-template-12a033 input[type="text"], #registro-template-12a033 input[type="password"] {
   width: 100% !important;
