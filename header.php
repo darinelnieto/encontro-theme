@@ -19,6 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
   <meta name="description" content="">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width">
+  <meta name="facebook-domain-verification" content="sosetvg2r6a8zlydv1z8qir8idliw1" />
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
