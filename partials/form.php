@@ -30,7 +30,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     $('#check-acepta').on('click', function(){
         $('input[type=checkbox]').on('click');
 	    if($('input[type=checkbox]').prop("checked") == true ){
-			$('.acepta-politicas').css({'background':'black'});
+			$('.acepta-politicas').css({'background':'white'});
             $('.envia').prop('disabled', false);
 		}else{
 			$('.acepta-politicas').css({'background':'#5e6464'});
